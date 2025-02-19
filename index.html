@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jogo de Palavras</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h2>Jogo de Palavras</h2>
+  <p>Neste Jogo você terá que adivinhar qual é a palavra que está sendo apresentada com as letras embaralhadas</p>
+  <input type="button" value="Jogar" onclick="jogar()" />
+  <h3 id="embaralhada"></h3>  
+  <input id="palpite" type="text" size="document.getElementById('embaralhada').value.length" style="display: none;" />
+  <input id="validar" type="button" value="Validar" onclick="validar()" style="display: none;" />
+</body>
+
+</html>
